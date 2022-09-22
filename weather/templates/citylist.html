@@ -1,0 +1,6 @@
+{% for city in cities %}
+  <h2>
+    <a href="{{ city.getCityUrl }}">{{ city.cityName }}</a>
+  </h2>
+  <hr>
+{% endfor %}
